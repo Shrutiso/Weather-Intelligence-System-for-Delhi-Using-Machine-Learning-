@@ -13,18 +13,17 @@
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Interactive Demo](#interactive-demo)
-3. [What's inside (Files & Structure)](#whats-inside-files--structure)
-4. [Models & Performance](#models--performance)
-5. [Visualizations & Insights](#visualizations--insights)
+2. [What's inside (Files & Structure)](#whats-inside-files--structure)
+3. [Models & Performance](#models--performance)
+4. [Visualizations & Insights](#visualizations--insights)
 
-6. [Usage Examples](#usage-examples)
+5. [Usage Examples](#usage-examples)
 
    * [Rain Prediction (Classification)](#rain-prediction-classification)
    * [Temperature Prediction (Regression)](#temperature-prediction-regression)
    * [Travel Recommendation System](#travel-recommendation-system)
-7. [How it makes decisions (explainability)](#how-it-makes-decisions-explainability)
-8. [Contact](#contact)
+6. [How it makes decisions (explainability)](#how-it-makes-decisions-explainability)
+7. [Contact](#contact)
 
 ---
 
@@ -40,17 +39,7 @@ The goal is to turn raw forecasts into actionable, everyday recommendations like
 
 ---
 
-## Interactive Demo
 
-> NOTE: Replace the placeholder below with your hosted demo (Streamlit/Flask/Gradio) or local demo GIF.
-
-**Demo GIF / Screenshot (placeholder)**
-
-![demo-placeholder](./assets/demo-placeholder.gif)
-
-You can run the demo locally (instructions in Quick Start) or deploy it to Streamlit Cloud / Heroku / Vercel for live interactions.
-
----
 
 ## What's inside (Files & Structure)
 
