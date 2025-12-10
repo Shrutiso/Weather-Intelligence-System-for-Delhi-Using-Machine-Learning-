@@ -17,17 +17,14 @@
 3. [What's inside (Files & Structure)](#whats-inside-files--structure)
 4. [Models & Performance](#models--performance)
 5. [Visualizations & Insights](#visualizations--insights)
-6. [Install & Run (Quick Start)](#install--run-quick-start)
-7. [Usage Examples](#usage-examples)
+
+6. [Usage Examples](#usage-examples)
 
    * [Rain Prediction (Classification)](#rain-prediction-classification)
    * [Temperature Prediction (Regression)](#temperature-prediction-regression)
    * [Travel Recommendation System](#travel-recommendation-system)
-8. [How it makes decisions (explainability)](#how-it-makes-decisions-explainability)
-9. [Extending the Project](#extending-the-project)
-10. [Contributing](#contributing)
-11. [Citing / Acknowledgements](#citing--acknowledgements)
-12. [Contact](#contact)
+7. [How it makes decisions (explainability)](#how-it-makes-decisions-explainability)
+8. [Contact](#contact)
 
 ---
 
@@ -108,37 +105,6 @@ Helpful visuals included in `assets/` and notebooks:
 * Temperature histograms & heatmaps
 * Model comparison charts and feature importances
 
-Tip: Use the notebooks to re-run visualizations after changing filters (year range, season, etc.).
-
----
-
-## Install & Run (Quick Start)
-
-**Requirements**
-
-* Python 3.8+
-* Virtual environment recommended
-
-```bash
-# clone the repo
-git clone <your-repo-url>
-cd Weather-Intelligence-System
-
-# create venv
-python -m venv .venv
-source .venv/bin/activate    # macOS / Linux
-.venv\Scripts\activate     # Windows
-
-# install deps
-pip install -r requirements.txt
-
-# run demo (Streamlit example)
-streamlit run app/streamlit_app.py
-```
-
-If you prefer a Flask API instead of Streamlit, instructions and `app/api.py` are included.
-
----
 
 ## Usage Examples
 
@@ -181,14 +147,7 @@ A small rule-based recommender suggests destinations based on `temperature`, `mo
 
 **Example rule**: If `temp <= 20` and `month in [11,12,1,2]` → recommend hill stations with winter festivals; if `temp >= 30` and `season == 'Monsoon'` → recommend coastal/sea-facing locations.
 
-**CLI usage**
 
-```bash
-python src/recommender.py --temp 24 --month 12 --season winter
-# Output: list of recommended places + short reasoning
-```
-
----
 
 ## How it makes decisions (explainability)
 
@@ -209,21 +168,8 @@ Ideas for future work:
 
 ---
 
-## Contributing
 
-Contributions, bug reports, and feature requests are welcome. Please open an issue or submit a pull request.
 
-Guidelines:
-
-* Follow the existing code style (PEP8)
-* Add tests for new features
-* Update notebooks / readme when adding datasets or models
-
----
-
-## Citing / Acknowledgements
-
-If you use this project in research or a product, please cite the repo and mention the author:
 
 **Shruti Somvanshi — Weather Intelligence System (INT234 : PREDICTIVE ANALYTICS)**
 
@@ -236,7 +182,8 @@ If you have questions or want to collaborate:
 * **Author:** Shruti Somvanshi
 * **Registration Number:** 12310394
 * **Subject:** INT234 : PREDICTIVE ANALYTICS
-* **Email (optional):** add your contact email here
+* **Email :** shrutisomvanshi83@gmail.com
+* **Linkedin :** https://www.linkedin.com/in/shruti-somvanshi11704
 
 ---
 
@@ -244,7 +191,5 @@ If you have questions or want to collaborate:
 
 This project is released under the MIT License — see `LICENSE` for details.
 
----
 
-*Generated README — feel free to edit sections (Demo placeholder, contact email, dataset source and license) before publishing.*
 
