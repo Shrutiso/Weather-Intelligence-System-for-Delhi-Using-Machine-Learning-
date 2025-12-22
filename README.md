@@ -2,7 +2,7 @@
 
 **Author:** Shruti Somvanshi
 **Registration Number:** 12310394
-**Subject:** INT234 : PREDICTIVE ANALYTICS
+**Subject:** INT234 : PREDICTIVE ANALYTICS.
 
 ---
 
