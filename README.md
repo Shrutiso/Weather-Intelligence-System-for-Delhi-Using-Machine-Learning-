@@ -17,7 +17,7 @@
 3. [Models & Performance](#models--performance)
 4. [Visualizations & Insights](#visualizations--insights)
 
-5. [Usage Examples](#usage-examples)
+5. [Usage Examples](#usage-examples).
 
    * [Rain Prediction (Classification)](#rain-prediction-classification)
    * [Temperature Prediction (Regression)](#temperature-prediction-regression)
