@@ -12,7 +12,7 @@
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
+1. [Project Overview](#project-overview).
 2. [What's inside (Files & Structure)](#whats-inside-files--structure)
 3. [Models & Performance](#models--performance)
 4. [Visualizations & Insights](#visualizations--insights).
